@@ -1,0 +1,23 @@
+.orgclr{
+    color:#f76540
+}
+.obtn{
+background-color: #f76540;
+color: #ffff;
+}
+.nrmbtn{
+    background-color: #ffff;
+    font-weight: 700;
+}
+/* .bgim{
+    background: url(../images/regis.png);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -15px;
+} */
+.posrow{
+    position: relative;
+    margin: 0px auto;
+}

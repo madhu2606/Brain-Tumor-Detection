@@ -1,0 +1,60 @@
+
+.orgclr{
+    color:#f76540;
+    font-family : 'IBM Plex Sans',Arial;
+    font-weight: 200;
+    font-style: italic;
+}
+.obtn{
+background-color: #f76540;
+color: #ffff;
+}
+.nrmbtn{
+    background-color: #ffff;
+    font-weight: 700;
+}
+.bgim{
+    background: url(../images/image1.jpg);
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -15px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+.innerform{
+    padding: 15px;
+    box-shadow: 0 0 18px 0px;
+    background: white;
+    opacity: 0.9;
+    color: black;
+    font-weight: bold;
+    border-radius: 5%;
+}
+.posrow{
+    position: relative;
+    top: 25%;
+}
+
+input[type="file"] {
+    display: none;
+}
